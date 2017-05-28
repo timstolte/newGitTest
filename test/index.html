@@ -1,0 +1,200 @@
+﻿<!DOCTYPE HTML>
+<html lang="nl">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Info scherm</title>
+		<script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+		<link rel='stylesheet prefetch' href='http:////netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+	</head>
+
+	<body>
+		<nav class="navbar-inverse">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#overmij">Life Technology</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		      	<li class="dropdown">
+			      	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">dropdown<span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">iets</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">iets</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">iets</a></li>
+			          </ul>
+		         </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">dropdown<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">iets</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">iets</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">iets</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    <ul class="nav navbar-nav navbar-right">
+		       <li>
+	                <p class="navbar-btn">
+	                    <a href="#" class="btn btn-success">Registreer</a>
+	                    <a href="#" class="btn btn-success">Inloggen</a>
+	                </p>
+           		</li>
+      		</ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<!-- begin site -->
+		<div class="wrapper">
+			<div class="row">
+			  <div class="col-lg-3">
+			    <div class="thumbnail 1">
+			      <img class="img-responsive" id="ehbo" src="..." alt="...">
+			      <div class="caption">
+			        <h1>De huisarts</h1>
+			        <p>klik op de knop meer informatie om te zien wat er op de eerste hulp gebeurt.</p>
+			        <p><button type="button" class="btn btn-success" data-toggle="modal" data-target="#huisarts">Lees meer</button></p>
+			      </div>
+			    </div>
+			  </div>
+
+			<!-- Modal -->
+			<div id="huisarts" class="modal fade" role="dialog">
+			  <div class="modal-dialog">
+
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h3 class="modal-title">De huisarts</h3>
+			      </div>
+			      <div class="modal-body">
+			        <p>Some text in the modal</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+
+			  </div>
+			</div>
+			  <div class="col-lg-3">
+			    <div class="thumbnail 1">
+			      <img class="img-responsive" id="ehbo" src="..." alt="...">
+			      <div class="caption">
+			        <h1>De eerste hulp</h1>
+			        <p> klik op de knop meer informatie om te zien wat er op de eerste hulp gebeurt.</p>
+			        <p><button type="button" class="btn btn-success" data-toggle="modal" data-target="#eersteHulp">Lees meer</button></p>
+			      </div>
+			    </div>
+			  </div>
+			
+
+			<!-- Modal -->
+			<div id="eersteHulp" class="modal fade" role="dialog">
+			  <div class="modal-dialog">
+
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h3 class="modal-title">De eerste hulp</h3>
+			      </div>
+			      <div class="modal-body">
+			        <p>Some text in the modal.</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+
+			  </div>
+			</div>
+
+			  <div class="col-lg-3">
+			    <div class="thumbnail 1">
+			      <img class="img-responsive" id="ehbo" src="..." alt="...">
+			      <div class="caption">
+			        <h1>Röntgenfoto</h1>
+			        <p> klik op de knop meer informatie om te zien wat er op de eerste hulp gebeurt.</p>
+			        <p><button type="button" class="btn btn-success" data-toggle="modal" data-target="#foto">Lees meer</button></p>
+			      </div>
+			    </div>
+			  </div>
+
+
+			<!-- Modal -->
+			<div id="foto" class="modal fade" role="dialog">
+			  <div class="modal-dialog">
+
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h3 class="modal-title">Röntgenfoto</h3>
+			      </div>
+			      <div class="modal-body">
+			        <p>Some text in the modal.</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+
+			  </div>
+			</div>
+
+			  <div class="col-lg-3">
+			    <div class="thumbnail 1">
+			      <img class="img-responsive" id="ehbo" src="..." alt="...">
+			      <div class="caption">
+			        <h1>Gipsen</h1>
+			        <p> klik op de knop meer informatie om te zien wat er op de eerste hulp gebeurt.</p>
+			        <p><button type="button" class="btn btn-success" data-toggle="modal" data-target="#gipsen">Lees meer</button></p>
+			      </div>
+			    </div>
+			  </div>
+
+			<!-- Modal -->
+			<div id="gipsen" class="modal fade" role="dialog">
+			  <div class="modal-dialog">
+
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h3 class="modal-title">Gipsen</h3>
+			      </div>
+			      <div class="modal-body">
+			        <p>Some text in the modal.</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+html,body
+{
+  font-family: 'Open Sans', sans-serif !important;
+  background-color: #bbbbbb !important;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+  height: 100%;
+}
+
+.navbar-inverse
+{
+  width: 100%;
+  margin-bottom: 0 !important;
+}
+
+h1
+{
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 25px;
+  color: rgb(83,129,53) !important;
+  font-weight: bold !important;
+}
+
+h3
+{
+  font-family: 'Montserrat', sans-serif !important;
+  color: rgb(83,129,53) !important;
+  font-weight: bold !important;
+}
+
